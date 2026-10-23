@@ -59,6 +59,5 @@ void loop(void)
   sprintf(tmp, "R:%.0f,%.0f,%.0f",  event.orientation.x,  event.orientation.y,  event.orientation.z);
   Serial.println(tmp);
 
-  delay(32);  // roughly 30 FPS
+  delay(32); // delay in ms, roughly 30fps
 }
-
